@@ -1,10 +1,8 @@
 const express = require("express");
-const cors = require("cors");
 const getQuote = require("./util/quotes.js");
 
 const PORT = 8085;
 const app = express();
-app.use(cors());
 
 // Ping test for service
 app.get("/ping", (request, response) => {
