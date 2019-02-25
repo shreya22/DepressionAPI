@@ -12,7 +12,7 @@ app.get("/ping", (request, response) => {
 });
 
 // Get a single random quote
-app.get("/quote", (request, response) => {
+app.get("/", (request, response) => {
     response.send(getQuote.random());
 });
 
@@ -21,4 +21,4 @@ app.get("/all", (request, response) => {
     response.send(getQuote.all());
 });
 
-app.listen(PORT || process.env.PORT);
+app.listen(process.env.PORT || PORT);
