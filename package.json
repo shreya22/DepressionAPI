@@ -1,27 +1,27 @@
 {
-  "name": "depressionapi",
-  "version": "1.0.0",
-  "description": "API for depressing quotes!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Devojoyti Halder <devojoyti@hotmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "memory-cache": "^0.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
-  },
-  "prettier": {
-    "trailingComma": "all",
-    "tabWidth": 4,
-    "semi": true,
-    "singleQuote": false,
-    "arrowParens": "always"
-  }
+    "name": "depressionapi",
+    "version": "1.0.0",
+    "description": "API for depressing quotes!",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Devojoyti Halder <devojoyti@hotmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "cors": "^2.8.5",
+        "express": "^4.16.4",
+        "memory-cache": "^0.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    },
+    "prettier": {
+        "trailingComma": "all",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false,
+        "arrowParens": "always"
+    }
 }
