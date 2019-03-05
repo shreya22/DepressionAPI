@@ -1,7 +1,7 @@
 const express = require("express");
 const getQuote = require("./util/quotes.js");
 
-const PORT = 8085;
+const PORT = 8086;
 const app = express();
 
 // Ping test for service
